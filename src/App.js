@@ -6,7 +6,7 @@ import Register from "./pages/Register";
 
 
 function App() {
-  const [setMessage] = useState("");
+  const [message, setMessage] = useState("");
 
   useEffect(() => {
     fetch("https://127.0.0.1:8000/api/message")
